@@ -7,6 +7,8 @@ int main() {
     int x2 = {7.8}; // error: = {} doesnt narrow (redundant = is allowed)
     int x3 = (7.8); // narrows
 
+    auto i{0uz};
+
     double d = 0;
 
     while (std::cin >> d) {
